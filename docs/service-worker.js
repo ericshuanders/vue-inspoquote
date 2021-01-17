@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/quotes/precache-manifest.6d5a0d8158d026c924f612aba4b52e96.js"
+  "/quotes/precache-manifest.2196e58f9e86e983a89c010f1b4fcb0a.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "quote-app"});
