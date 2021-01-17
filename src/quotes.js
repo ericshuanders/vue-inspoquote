@@ -74,7 +74,7 @@ export const quotes = [
   },
 ]
 
-export function getRandomQuote() {
+export function getRandomQuote(quotes) {
   const max = quotes.length
   // returns a random integer up to max - 1
   const i = Math.floor(Math.random() * Math.floor(max))
